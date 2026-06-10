@@ -76,7 +76,7 @@ export default function App() {
             </h1>
           </div>
           <a
-            href="https://github.com"
+            href="https://github.com/XRubic1/PDFStampingTool"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden rounded-lg border border-slate-700 px-3 py-1.5 text-xs text-slate-400 transition-colors hover:border-slate-600 hover:text-slate-200 sm:block"

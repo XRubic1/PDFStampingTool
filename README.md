@@ -20,10 +20,10 @@ npm run dev
 
 ## Deploy to GitHub Pages
 
-1. Create a GitHub repo named `stamping-tool` (or update `base` in `vite.config.ts` to match your repo name).
-2. Push this project to the `main` branch.
+1. Create a GitHub repo (this project uses [PDFStampingTool](https://github.com/XRubic1/PDFStampingTool); update `base` in `vite.config.ts` if yours differs).
+2. Push this project to the `master` or `main` branch.
 3. In repo **Settings → Pages**, set source to **GitHub Actions**.
-4. Push to `main` — the workflow deploys automatically.
+4. Push — the workflow deploys to `https://<username>.github.io/PDFStampingTool/`.
 
 Or deploy manually:
 

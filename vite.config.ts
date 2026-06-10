@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// Set base to your GitHub repo name for GitHub Pages (e.g. /stamping-tool/)
+// GitHub Pages project site: https://xrubic1.github.io/PDFStampingTool/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'ghpages' ? '/stamping-tool/' : '/',
+  base: mode === 'ghpages' ? '/PDFStampingTool/' : '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     dedupe: ['pdfjs-dist'],
